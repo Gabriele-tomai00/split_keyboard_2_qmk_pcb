@@ -3204,6 +3204,12 @@
 		(uuid "7e15a9e2-126a-435a-b8bf-5d7eeb70c400")
 	)
 	(junction
+		(at 356.87 292.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e6a6747-6ee9-4d66-8a2b-92406586bb3a")
+	)
+	(junction
 		(at 181.61 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3238,6 +3244,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "945a61b2-3311-46f3-92a3-b37cedd69665")
+	)
+	(junction
+		(at 307.34 292.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98c1453a-d548-4de3-8add-3fb7d5513f3b")
 	)
 	(junction
 		(at 166.37 309.88)
@@ -4211,6 +4223,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 292.1) (xy 307.34 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39cbe4e0-b72a-4e53-9e20-17e221c0f46f")
+	)
+	(wire
+		(pts
 			(xy 67.31 154.94) (xy 104.14 154.94)
 		)
 		(stroke
@@ -4561,6 +4583,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 292.1) (xy 307.34 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513b6f5a-bb4c-4e9a-a9f9-29c9c20e734c")
+	)
+	(wire
+		(pts
 			(xy 142.24 369.57) (xy 186.69 369.57)
 		)
 		(stroke
@@ -4738,6 +4770,16 @@
 			(type default)
 		)
 		(uuid "5c25ba6d-0044-49d9-9416-ba86f686132f")
+	)
+	(wire
+		(pts
+			(xy 299.72 292.1) (xy 307.34 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d27ba44-ea4f-4cbe-be04-ec223d5eaf4f")
 	)
 	(wire
 		(pts
@@ -6081,6 +6123,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 292.1) (xy 356.87 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd367aec-3170-46c9-927e-99c3e3c46628")
+	)
+	(wire
+		(pts
 			(xy 194.31 378.46) (xy 194.31 377.19)
 		)
 		(stroke
@@ -6321,6 +6373,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 292.1) (xy 356.87 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c514a2-b99e-4c27-92de-6371ead0164e")
+	)
+	(wire
+		(pts
 			(xy 143.51 91.44) (xy 143.51 66.04)
 		)
 		(stroke
@@ -6438,6 +6500,16 @@
 			(type default)
 		)
 		(uuid "fd19b7ca-0fda-45b8-96fd-7de7d12e51c0")
+	)
+	(wire
+		(pts
+			(xy 349.25 292.1) (xy 356.87 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe12ce02-d537-4729-b63c-b33107e6ef94")
 	)
 	(wire
 		(pts
@@ -7287,6 +7359,28 @@
 			)
 		)
 	)
+	(global_label "Data+"
+		(shape input)
+		(at 307.34 294.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a257a6d7-c848-4c91-ad6c-95b8ed122c6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.1913 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Row 4"
 		(shape input)
 		(at 318.77 247.65 180)
@@ -7393,6 +7487,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Data-"
+		(shape input)
+		(at 356.87 294.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfdb9de4-4dd2-4373-88c3-f51e9b2d66f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 365.7213 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8585,6 +8701,73 @@
 			(project "tastiera6_sx"
 				(path "/8f54cb60-6bbe-42e1-8e01-cb7bba8e7e6d"
 					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 299.72 292.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b240b0e-be81-4974-887d-1e76e86b7f12")
+		(property "Reference" "TP7"
+			(at 302.26 287.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 302.26 290.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 304.8 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 299.72 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f3a4a91-43bc-497b-ad2d-f43552831114")
+		)
+		(instances
+			(project "pcb_keyboard_sx"
+				(path "/8f54cb60-6bbe-42e1-8e01-cb7bba8e7e6d"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -12644,6 +12827,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 314.96 292.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bc44d9d-bd58-46d9-b616-9027b20a603c")
+		(property "Reference" "TP6"
+			(at 317.5 287.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 317.5 290.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 320.04 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 320.04 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 314.96 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8139111-e727-49fc-aee2-69ef95b576c3")
+		)
+		(instances
+			(project "pcb_keyboard_sx"
+				(path "/8f54cb60-6bbe-42e1-8e01-cb7bba8e7e6d"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 372.11 229.87 270)
 		(unit 1)
@@ -14469,6 +14719,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 349.25 292.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b2212c1-b2d4-4163-900a-00989fbe7571")
+		(property "Reference" "TP8"
+			(at 351.79 287.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 351.79 290.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 354.33 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 349.25 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb042208-b07e-48e7-87f5-acbd81b6362c")
+		)
+		(instances
+			(project "pcb_keyboard_sx"
+				(path "/8f54cb60-6bbe-42e1-8e01-cb7bba8e7e6d"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 118.11 125.73 90)
 		(unit 1)
@@ -14705,6 +15022,73 @@
 			(project "tastiera6_sx"
 				(path "/8f54cb60-6bbe-42e1-8e01-cb7bba8e7e6d"
 					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 364.49 292.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "931a0c6d-147f-483f-9a86-78565e2d615a")
+		(property "Reference" "TP9"
+			(at 367.03 287.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 367.03 290.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 369.57 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 369.57 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 364.49 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c6d3c76-bda8-4978-99a1-0295a32aec8a")
+		)
+		(instances
+			(project "pcb_keyboard_sx"
+				(path "/8f54cb60-6bbe-42e1-8e01-cb7bba8e7e6d"
+					(reference "TP9")
 					(unit 1)
 				)
 			)

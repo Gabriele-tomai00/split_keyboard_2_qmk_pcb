@@ -3072,6 +3072,12 @@
 		(uuid "3ef1d362-f956-4d42-9bd5-feffb1afcaca")
 	)
 	(junction
+		(at 393.7 332.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47528e88-a072-426d-9b50-7c14e75076fe")
+	)
+	(junction
 		(at 147.32 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3088,6 +3094,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50bd8348-2f74-4e54-9062-36fe7e2b4df2")
+	)
+	(junction
+		(at 443.23 332.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50c3da5e-5225-44f1-99ec-4697016b0033")
 	)
 	(junction
 		(at 448.31 259.08)
@@ -3893,6 +3905,16 @@
 	)
 	(wire
 		(pts
+			(xy 435.61 332.74) (xy 443.23 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e3b2a7-a19f-474b-8ee8-7956dac7f3de")
+	)
+	(wire
+		(pts
 			(xy 208.28 260.35) (xy 185.42 260.35)
 		)
 		(stroke
@@ -4133,6 +4155,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 332.74) (xy 393.7 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288bab89-e3b1-4cf8-8ea9-0b5050617a10")
+	)
+	(wire
+		(pts
 			(xy 67.31 341.63) (xy 107.95 341.63)
 		)
 		(stroke
@@ -4243,6 +4275,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 332.74) (xy 393.7 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe502b1-f6d2-4a6a-99b1-8ac2dba75365")
+	)
+	(wire
+		(pts
 			(xy 387.35 294.64) (xy 405.13 294.64)
 		)
 		(stroke
@@ -4290,6 +4332,16 @@
 			(type default)
 		)
 		(uuid "32776118-6e4e-4e8c-bea7-7a4be9a78ac6")
+	)
+	(wire
+		(pts
+			(xy 401.32 332.74) (xy 393.7 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329473c3-41d3-4b19-be3b-8c646c11d77e")
 	)
 	(wire
 		(pts
@@ -5853,6 +5905,16 @@
 	)
 	(wire
 		(pts
+			(xy 450.85 332.74) (xy 443.23 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd41c8ba-f429-4584-bbb9-f8dc2e18c270")
+	)
+	(wire
+		(pts
 			(xy 209.55 78.74) (xy 209.55 156.21)
 		)
 		(stroke
@@ -6350,6 +6412,16 @@
 			(type default)
 		)
 		(uuid "f4f725b1-483b-4872-8040-3f167bd8242b")
+	)
+	(wire
+		(pts
+			(xy 443.23 332.74) (xy 443.23 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f504b7a0-8523-49e7-a35c-fb96c187db37")
 	)
 	(wire
 		(pts
@@ -7380,6 +7452,28 @@
 			)
 		)
 	)
+	(global_label "Data-"
+		(shape input)
+		(at 443.23 335.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1183c9a-5b77-43a0-9b71-0efda371a2bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 452.0813 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED 3.3V"
 		(shape input)
 		(at 281.94 372.11 0)
@@ -7503,6 +7597,28 @@
 		(uuid "eab64f8b-b41b-4c88-8cea-adbd7c6422e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 279.4218 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Data+"
+		(shape input)
+		(at 393.7 335.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec6d2867-934e-41f2-b861-8592878602d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 402.5513 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12040,6 +12156,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 354.33 237.49 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60ad2df7-24f5-4ee0-a2c7-bb9ceb478665")
+		(property "Reference" "H5"
+			(at 356.87 236.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 356.87 238.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 354.33 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 354.33 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pcb_keyboard_dx"
+				(path "/4a58dabb-c0ef-40d3-9f93-01da990139b6"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 270.51 285.75 0)
 		(unit 1)
@@ -12881,6 +13061,73 @@
 			(project "tasatiera6_dx"
 				(path "/4a58dabb-c0ef-40d3-9f93-01da990139b6"
 					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 450.85 332.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74ad7007-df10-4c03-ba57-3f84a922b2af")
+		(property "Reference" "TP11"
+			(at 453.39 328.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 453.39 330.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 455.93 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 455.93 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 450.85 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e710d3d4-63f5-4b5c-b141-662a8b2c4ca0")
+		)
+		(instances
+			(project "pcb_keyboard_dx"
+				(path "/4a58dabb-c0ef-40d3-9f93-01da990139b6"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -15159,6 +15406,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 401.32 332.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2a7de2f-2e7c-448a-9f4c-cffdffb5291c")
+		(property "Reference" "TP9"
+			(at 403.86 328.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 403.86 330.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 406.4 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 406.4 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 401.32 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25492c30-1303-44d9-a996-b29d2e6ccfb2")
+		)
+		(instances
+			(project "pcb_keyboard_dx"
+				(path "/4a58dabb-c0ef-40d3-9f93-01da990139b6"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 46.99 185.42 0)
 		(unit 1)
@@ -15678,6 +15992,73 @@
 			(project "pcb_keyobard_dx"
 				(path "/4a58dabb-c0ef-40d3-9f93-01da990139b6"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 435.61 332.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac6714df-2965-4c7d-b3e8-362100e722c0")
+		(property "Reference" "TP10"
+			(at 438.15 328.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 438.15 330.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 440.69 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 440.69 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 435.61 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4e541a3-6833-46f2-822d-d19e56530c55")
+		)
+		(instances
+			(project "pcb_keyboard_dx"
+				(path "/4a58dabb-c0ef-40d3-9f93-01da990139b6"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -16597,6 +16978,73 @@
 			(project ""
 				(path "/4a58dabb-c0ef-40d3-9f93-01da990139b6"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 386.08 332.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbfc4f4b-d238-4f29-b14d-c4731792c15f")
+		(property "Reference" "TP8"
+			(at 388.62 328.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 388.62 330.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 391.16 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 386.08 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11d45d76-abd4-4824-a7fc-8d57a412c1ee")
+		)
+		(instances
+			(project "pcb_keyboard_dx"
+				(path "/4a58dabb-c0ef-40d3-9f93-01da990139b6"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
