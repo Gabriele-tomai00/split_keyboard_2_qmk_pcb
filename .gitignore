@@ -43,3 +43,40 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+
+# QMK
+
+# ───── QMK Firmware Build Outputs ─────
+.build/
+*.bin
+*.hex
+*.elf
+*.map
+*.d
+*.o
+
+# ───── VS Code IDE ─────
+.vscode/
+*.code-workspace
+
+# ───── macOS System Files ─────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Thumbnails
+._.DS_Store
+
+# Spotlight and Trash
+.Spotlight-V100
+.Trashes
+
+# Files that might appear on external disks
+.fseventsd
+.TemporaryItems
+
+# ───── Other common ignores ─────
+*.log
+*.swp
