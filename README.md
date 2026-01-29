@@ -81,8 +81,8 @@ I constructed a custom cable using 4-pin RJ11 connectors (6P4C) attached to a 4-
 ### USB Type-C Connectivity
 Each keyboard half features a dedicated USB Type-C port for computer connectivity. I chose this standard for its versatility and widespread adoption. The port is distinct from the inter-half connection to prevent accidental mismatches. Either half can be connected to the host computer.
 I referenced the Raspberry Pi Pico datasheet to correctly wire the external USB-C breakout board to the microcontroller, ensuring the Pico detects the external connection as its primary USB interface.
-<img src="images/usb_c_1.jpg" width="50%"><img src="images/usb_c_2.jpg" width="50%">
 
+<img src="images/usb_c_1.jpg" width="50%"><img src="images/usb_c_2.jpg" width="50%">
 ### Key Matrix Wiring
 QMK supports a key matrix configuration where each key is identified by a unique row-column combination, with diodes preventing ghosting (unwanted column activation).
 The PCB and QMK firmware are configured as follows:
