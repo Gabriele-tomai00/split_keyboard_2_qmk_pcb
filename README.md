@@ -121,9 +121,9 @@ For the matrix:
 A significant challenge was soldering the small voltage level shifter required for correct LED data signaling. As this was my first experience with soldering—especially with such small SMD components—the results are functional but reflect the learning curve involved.
 
 ## Flashing Instructions
-
-1. Move this git repository to the `keyboards` directory of `vial-qmk` and rename it to `split_keyboard_gabriele`.
-2. Flash the firmware using the following commands:
+1. Set up the **vial-qmk** environment by cloning the repository: [https://github.com/vial-kb/vial-qmk](https://github.com/vial-kb/vial-qmk).
+2. Copy the `qmk-vial/new_split_keyboard_gabriele` directory from this project into the `vial-qmk/keyboards/` directory.
+3. Flash the firmware using the following commands:
 
 ```bash
 # Flash Left Side

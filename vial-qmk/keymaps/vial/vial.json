@@ -1,0 +1,291 @@
+{
+    "name": "new_split_keyboar_gabriele",
+    "matrix": {
+        "rows": 12,
+        "cols": 9
+    },
+    "lighting": "vialrgb",
+    "customKeycodes": [
+        {
+            "name": "KC_LSTRT",
+            "title": "Start key",
+            "shortName": "STRT-line"
+        },
+        {
+            "name": "KC_LEND",
+            "title": "End key",
+            "shortName": "END-line"
+        },
+        {
+            "name": "KC_DLINE",
+            "title": "Delete line",
+            "shortName": "Del-word"
+        },
+        {
+            "name": "BRIGHTNESS_CICLE",
+            "title": "Brightness Cycle",
+            "shortName": "RGB\nBrightness"
+        },
+        {
+          "name": "RGB_COL_TOGGLE",
+          "title": "RGB color toggle: blue, green, yellow",
+          "shortName": "RGB\nColor"
+        },
+        {
+            "name": "KC_E_GRAVE",
+            "title": "e grave",
+            "shortName": "Lalt(E)\n+E"
+        },
+        {
+            "name": "MOVE_RIGHT_MACOS",
+            "title": "move right macos space",
+            "shortName": "Move\nR-space"
+        },
+        {
+            "name": "MOVE_LEFT_MACOS",
+            "title": "move left macos space",
+            "shortName": "Move\nL-space"
+        },
+        {
+            "name": "KC_MARKDOWN_CODE_BLOCK",
+            "title": "creation of a markdown code bloack",
+            "shortName": "Code\nblock"
+        }
+    ],
+    "layouts": {
+      "keymap":  [
+
+
+        
+        
+          {
+            "backcolor": "#000000",
+            "name": "For_VIAL"
+          },
+          [
+            {
+              "r": 8,
+              "y": 1.75,
+              "x": 3,
+              "c": "#acacac"
+            },
+            "0,0",
+            "0,1",
+            "0,2",
+            "0,3",
+            "0,4",
+            "0,5",
+            "0,6"
+          ],
+          [
+            {
+              "x": 3,
+              "w": 1.5
+            },
+            "1,0",
+            "1,2",
+            "1,3",
+            "1,4",
+            "1,5",
+            "1,6"
+          ],
+          [
+            {
+              "x": 3,
+              "w": 1.75
+            },
+            "2,0",
+            "2,2",
+            "2,3",
+            "2,4",
+            "2,5",
+            "2,6"
+          ],
+          [
+            {
+              "x": 3,
+              "w": 2.25
+            },
+            "3,1",
+            "3,2",
+            "3,3",
+            "3,4",
+            "3,5",
+            "3,6",
+            {
+              "c": "#8d7b7b"
+            },
+            "3,7"
+          ],
+          [
+            {
+              "x": 3,
+              "c": "#acacac",
+              "w": 1.25
+            },
+            "4,0",
+            {
+              "w": 1.25
+            },
+            "4,1",
+            {
+              "w": 1.25
+            },
+            "4,3",
+            {
+              "w": 1.25
+            },
+            "4,4",
+            {
+              "w": 1.75
+            },
+            "4,5",
+            {
+              "c": "#8d7b7b"
+            },
+            "4,7"
+          ],
+          [
+            {
+              "x": 7,
+              "w": 1.75
+            },
+            "5,4",
+            "5,6"
+          ],
+          [
+            {
+              "r": 35,
+              "y": -7.75,
+              "x": 12.75,
+              "sm": "cherry",
+              "sb": "outemu",
+              "st": "PG150T01-1"
+            },
+            "4,8"
+          ],
+          [
+            {
+              "r": -8,
+              "y": 3.75,
+              "x": 12.25,
+              "c": "#acacac"
+            },
+            "6,1",
+            "6,2",
+            "6,3",
+            "6,4",
+            "6,5",
+            "6,6",
+            {
+              "w": 2
+            },
+            "6,7"
+          ],
+          [
+            {
+              "y": -0.5,
+              "x": 22
+            },
+            "6,0"
+          ],
+          [
+            {
+              "y": -0.5,
+              "x": 11.75
+            },
+            "7,0",
+            "7,1",
+            "7,2",
+            "7,3",
+            "7,4",
+            "7,5",
+            "7,6",
+            {
+              "w": 1.5
+            },
+            "7,7"
+          ],
+          [
+            {
+              "y": -0.5,
+              "x": 21.5
+            },
+            "0,0\n\n\n\n\n\n\n\n\ne",
+            "0,1\n\n\n\n\n\n\n\n\ne"
+          ],
+          [
+            {
+              "y": -0.5,
+              "x": 12
+            },
+            "8,0",
+            "8,1",
+            "8,2",
+            "8,3",
+            "8,4",
+            "8,5",
+            {
+              "w": 2.25
+            },
+            "8,7"
+          ],
+          [
+            {
+              "x": 12.5
+            },
+            "9,1",
+            "9,2",
+            "9,3",
+            "9,4",
+            "9,5",
+            {
+              "w": 2.75
+            },
+            "9,7"
+          ],
+          [
+            {
+              "x": 12,
+              "w": 1.75
+            },
+            "10,1",
+            {
+              "w": 1.5
+            },
+            "10,2",
+            {
+              "w": 1.25
+            },
+            "10,4",
+            {
+              "w": 1.25
+            },
+            "10,5",
+            {
+              "w": 1.25
+            },
+            "10,6",
+            {
+              "w": 1.25
+            },
+            "10,7"
+          ],
+          [
+            {
+              "x": 12,
+              "c": "#8d7b7b"
+            },
+            "11,0",
+            {
+              "w": 1.75
+            },
+            "11,2"
+          ]
+        ]
+
+
+
+    
+}
+}
