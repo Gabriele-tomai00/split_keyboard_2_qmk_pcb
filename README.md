@@ -19,6 +19,12 @@ The layout is a traditional row-staggered design (non-ortholinear) with ergonomi
 
 *Acknowledgments: Special thanks to the QMK and Vial communities, and the authors of the Sofle Pico keyboard, whose work provided invaluable inspiration and knowledge.*
 
+## Repository Structure
+- `/3d_images`: 3D design files (STL) created with Autodesk Fusion 360
+- `/images`: Photographic documentation of the keyboard assembly and final build.
+- `/kicad`: Electrical schematics and PCB layout designs developed in KiCad, ready for fabrication.
+- `/qmk`: Source code for the QMK-based firmware with Vial GUI support.å
+
 ## Components List
 - Custom PCBs (Left & Right)
 - 2x Raspberry Pi Pico
@@ -83,15 +89,18 @@ The PCB and QMK firmware are configured as follows:
 <img src="images/wires_left.png" width="50%"> <img src="images/wires_right.png" width="45.9%">
 
 ## 3D-Printed Case Design
-I designed and printed a custom enclosure using PLA. The chassis is modular, divided into multiple parts to:
+I designed with Autodesk Fusion 360 and printed a custom enclosure using PLA. The chassis is modular, divided into multiple parts to:
 - Allow for easy replacement of individual components without re-printing the entire case.
 - Reduce print time per part (avoiding >20h single prints).
 
-I used a nozzle of 0.2mm diameter for the 3D printing process.
+<img src="images/components.png" alt="Components" width="80%">
 
+### 3D Printing Process
+The enclosure components were manufactured using a Bambu Lab P1P 3D printer. While the design is compatible with standard printing profiles, a 0.2mm nozzle was utilized to achieve superior surface finish and precise detail resolution.
+PLA (Polylactic Acid) was selected as the filament material due to its optimal balance of cost-effectiveness, printability, and mechanical durability suitable for this application.
+
+### Assembly
 The case uses threaded brass inserts (M2) for a robust and aesthetically pleasing assembly.
-PLA proved to be an excellent material choice: it is cost-effective, easy to print, and durable enough for a keyboard that doesn't face extreme thermal or mechanical stress.
-
 <img src="images/assembly/20251029_095443.jpg" alt="Case Assembly" width="80%">
 <img src="images/assembly/20251029_095451.jpg" alt="Case Assembly" width="80%">
 <img src="images/assembly/20251029_095500.jpg" alt="Case Assembly" width="80%">
@@ -123,6 +132,9 @@ qmk flash -kb new_split_keyboard_gabriele -km vial -bl uf2-split-left
 # Flash Right Side
 qmk flash -kb new_split_keyboard_gabriele -km vial -bl uf2-split-right
 ```
+
+## Conclusions
+Additional photographic documentation is available in the `/images` directory.
 
 ## References
 - [QMK Firmware](https://qmk.fm/)
