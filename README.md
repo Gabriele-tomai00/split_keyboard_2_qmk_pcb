@@ -25,6 +25,7 @@ The layout is a traditional row-staggered design (non-ortholinear) with ergonomi
 - `/kicad`: Electrical schematics and PCB layout designs developed in KiCad, ready for fabrication.
 - `/vial-qmk`: Source code for the QMK-based firmware with Vial GUI support.
 - `/vial_config.vil`: Vial configuration file (you can upload this file to Vial to configure the keyboard).
+- `/perimeter_right.dxf` and `/perimeter_left.dxf`: DXF files for the right and left half PCB perimeter (used to cut the PCB).
 
 ## Components List
 - Custom PCBs (Left & Right)
