@@ -2,7 +2,7 @@
 
 <img src="images/first.jpg" width="100%">
 
-## ⚠️ Report In Progress ⚠️
+<!-- ## ⚠️ Report In Progress ⚠️ -->
 This project details the design and construction of my first custom split keyboard. The build features a custom PCB, hand-soldered components, and a 3D-printed case, all powered by the Raspberry Pi Pico and QMK firmware.
 
 **Key Features:**
