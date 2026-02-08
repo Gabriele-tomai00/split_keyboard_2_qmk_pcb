@@ -23,9 +23,8 @@ The layout is a traditional row-staggered design (non-ortholinear) with ergonomi
 - `/3d_images`: 3D design files (STL) created with Autodesk Fusion 360
 - `/images`: Photographic documentation of the keyboard assembly and final build.
 - `/kicad`: Electrical schematics and PCB layout designs developed in KiCad, ready for fabrication.
-- `/qmk`: Source code for the QMK-based firmware with Vial GUI support.
-- `/qmk_firmware`: QMK firmware source code.
-- `/vial_config.vil`: Vial configuration file (you can upload this file to Vial to configure the keyboard)).
+- `/vial-qmk`: Source code for the QMK-based firmware with Vial GUI support.
+- `/vial_config.vil`: Vial configuration file (you can upload this file to Vial to configure the keyboard).
 
 ## Components List
 - Custom PCBs (Left & Right)
